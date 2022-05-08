@@ -1,0 +1,249 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--FF-Title);
+}
+
+:root {
+  /* Font Family */
+  --FF-Title: 'DM Sans', sans-serif;
+  /* Fonte Size - Mobile*/
+  --FS-Title: 24px;
+  --FS-Sub-Title: 16px;
+  --FS-contato-text: 11px;
+  /* Cores */
+  --background: #171717;
+  --Text-black: #171717;
+  --text-white: #F9F9F9;
+  --text-gray: #828282;
+  --Primary-color: #65FBD2; 
+  /* #5999DE */
+}
+
+/* Mobile First */
+
+#body {
+  display: grid;
+  background-color: var(--background);
+  gap: 56px;
+}
+
+
+/* Header */
+#header {
+  margin: 24px 24px;
+  color: var(--text-white);
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: var(--FS-Sub-Title);
+  color: var(--text-white);
+}
+
+.list-1 {
+  display: none;
+}
+
+.foto {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.foto img{
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+/* Main */
+
+/* Apresentação */
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 24px;  gap: 56px;
+}
+
+.infos h1 {
+  font-size: var(--FS-Title);
+  color: var(--text-white);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.infos h2 {
+  font-size: var(--FS-Sub-Title);
+  color: var(--text-gray);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.btn-apresentacao {
+  display: flex;
+  justify-content: space-between;
+}
+
+ a, .btn-contato {
+  padding: 12px 27px;
+  border-color: transparent;
+}
+
+.download, a {
+  color: var(--background);
+  background-color: var(--Primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-contato {
+  color: var(--text-white);
+  background-color: transparent;
+  border: 1px solid #333333;
+}
+
+/* Sobre-mim */
+
+.resumo h1{
+  text-align: center;
+  margin-bottom: 14px;
+  color: var(--text-white);
+  font-size: var(--FS-Title);
+}
+
+.resumo p {
+  color: var(--text-gray);
+  font-size: var(--FS-Sub-Title);
+  text-align: center;
+}
+
+/* Contato */
+
+.contato h1 {
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--text-white);
+  font-size: var(--FS-Title);
+}
+
+.list-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+}
+
+.list-3 {
+  text-align: center;
+}
+
+.list-3 li:nth-child(1){
+  margin-bottom: 14px;
+}
+
+.list-3 li:nth-child(2){
+  color: var(--text-white);
+  font-size: var(--FS-Sub-Title);
+}
+
+.list-3 li:nth-child(3){
+  color: var(--text-gray);
+  font-size: var(--FS-contato-text);
+}
+
+/* Projetos */
+.projetos {
+  display: grid;
+  gap: 24px;
+}
+
+.projetos>h1 {
+  text-align: center;
+  color: var(--text-white);
+  font-size: var(--FS-Title);
+}
+
+.card {
+  background: #212121;
+  padding: 16px 18px;
+}
+
+.container-img {
+  background-color: white;
+  margin-bottom: 8px;
+  height: 100px;
+}
+
+.card h1 {
+  color: var(--text-white);
+  font-size: var(--FS-Sub-Title);
+}
+
+.card h2 {
+  color: var(--text-gray);
+  font-size: var(--FS-contato-text);
+}
+
+/* Serviços */
+
+.servicos{
+  display: grid;
+  gap: 24px;
+}
+
+.servicos h1 {
+  text-align: center;
+  color: var(--text-white);
+  font-size: var(--FS-Title);
+}
+
+.card-services{
+  border-bottom:3px solid var(--Primary-color);
+  text-align: center;
+  background: #212121;
+  padding: 31px 99px 43px;
+}
+
+.card-services h2 {
+  color: var(--text-gray);
+  font-size: var(--FS-Sub-Title);
+}
+
+/* Minhas skills */
+
+.minhas-skills h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--text-white);
+  font-size: var(--FS-Title);
+}
+
+.card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* footer */
+
+#footer{
+  background-color: #212121;
+  padding: 14px;
+  text-align: center;
+  color: white;
+  font-size: var(--FS-Sub-Title);
+}
+
+.azl{
+  color: var(--Primary-color);
+}
