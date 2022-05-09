@@ -24,6 +24,10 @@
   /* #5999DE */
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Mobile First */
 
 #body {
@@ -95,12 +99,12 @@
   justify-content: space-between;
 }
 
- a, .btn-contato {
+ .download a, .btn-contato {
   padding: 12px 27px;
   border-color: transparent;
 }
 
-.download, a {
+.download a {
   color: var(--background);
   background-color: var(--Primary-color);
   border: none;
@@ -135,6 +139,10 @@
   text-align: center;
   color: var(--text-white);
   font-size: var(--FS-Title);
+}
+
+.contato a {
+  color:  var(--text-gray);
 }
 
 .list-2{
@@ -176,6 +184,12 @@
 .card {
   background: #212121;
   padding: 16px 18px;
+}
+
+.image {
+  margin-bottom: 10px;
+  height: 100px;
+  overflow: hidden;
 }
 
 .container-img {
