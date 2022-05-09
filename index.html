@@ -11,17 +11,20 @@
       @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
     </style>
   </head>
-  <body id="body">
+  <body href="body" id="body">
+    <img class="arrow-up hide" src="img/seta-cima.png" alt="">
     <header id="header">
       <nav class="navbar">
         <h2>Julio Cesar</h2>
         <ul class="list-1">
-          <li>Sobre mim</li>
-          <li>Projetos</li>
-          <li>Serviços</li>
-          <li>Minhas skills</li>
+          <li class="close"><img src="img/close.svg" alt=""></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#skills">Minhas skills</a></li>
         </ul>
-        <img src="img/menu hamburguer.svg" alt="" />
+        <img class="js-menu-hamburguer" src="img/menu hamburguer.svg" alt="" />
       </nav>
     </header>
 
@@ -44,7 +47,7 @@
         </div>
       </section>
 
-      <section id="sobre-mim">
+      <section id="sobre">
         <div class="resumo">
           <h1>Sobre mim</h1>
           <p>
@@ -53,7 +56,7 @@
         </div>
       </section>
 
-      <section class="contato">
+      <section id="contato" class="contato">
         <h1>Contato</h1>
         <ul class="list-2">
           <ul class="list-3">
@@ -79,7 +82,7 @@
         </ul>
       </section>
 
-      <section class="projetos">
+      <section id="projetos" class="projetos">
         <h1>Projetos</h1>
         <div class="card">
           <div class="image">
@@ -111,7 +114,7 @@
         </div>
       </section>
 
-      <section class="servicos">
+      <section id="servicos" class="servicos">
         <h1>Serviços</h1>
         <div class="card-services">
           <img src="img/code.svg" alt="" />
@@ -127,7 +130,7 @@
         </div>
       </section>
 
-      <section class="minhas-skills">
+      <section id="skills" class="minhas-skills">
         <h1>Minhas skills</h1>
         <ul class="card-skills">
           <li><img src="img/HTML.svg" alt="" /></li>
@@ -142,4 +145,5 @@
       <span>Orgulhosamente feito por <span class="azl">Julio Cesar</span></span>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
