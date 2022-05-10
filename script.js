@@ -25,7 +25,7 @@ menuHamburguer.addEventListener('click', activeMenu)
 
 closeMenu.addEventListener('click', HideMenu)
 
-// Scroll Suave
+// Scroll Suave ao Titulo
 
 const menuItems = document.querySelectorAll('.list-1 li a[href^="#"]')
 
