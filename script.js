@@ -33,6 +33,8 @@ function smothScroll(event) {
   event.preventDefault()
   const href = event.currentTarget.getAttribute('href')
   const section = document.querySelector(href)
+  closeMenu.classList.remove('js-close-menu')
+  showMenu.classList.remove('js-show-menu')
 
   section.scrollIntoView({
     behavior: 'smooth',
@@ -47,12 +49,6 @@ menuItems.forEach(id => {
 // Voltar ao topo
 
 const arrowUp = document.querySelector('.arrow-up')
-
-const showArrow = document.querySelector('#apresentacao')
-
-
-
-console.log(alturaArrow)
 
 function scrollTop() {
   const topHeader = document.querySelector('#body').getAttribute('href')

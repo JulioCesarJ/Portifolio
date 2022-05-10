@@ -20,7 +20,7 @@
   --Text-black: #171717;
   --text-white: #F9F9F9;
   --text-gray: #828282;
-  --Primary-color: #65FBD2; 
+  --Primary-color: #65FBD2;
   /* #5999DE */
 }
 
@@ -42,21 +42,22 @@ img {
   right: 10px;
 }
 
-.hide {
-  display: none;
-}
-
 /* Header */
 #header {
   margin: 24px 24px;
   color: var(--text-white);
 }
 
-.navbar{
+.navbar {
+  width: 90vw;
+  padding: 15px;
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #171717;
 }
 
 .navbar h2 {
@@ -64,13 +65,14 @@ img {
   color: var(--text-white);
 }
 
-.list-1, .close {
+.list-1,
+.close {
   display: none;
 }
 
 /* Menu Hamburguer */
 
-.list-1 li a{
+.list-1 li a {
   color: var(--text-white);
 }
 
@@ -78,7 +80,7 @@ img {
   display: flex;
   height: 100vh;
   background-color: var(--Text-black);
-  
+
   flex-direction: column;
   position: fixed;
   padding: 0 50px;
@@ -88,7 +90,7 @@ img {
   animation: showMenu 0.5s forwards;
 }
 
-.js-close-menu{
+.js-close-menu {
   display: block;
   width: max-content;
   position: relative;
@@ -102,6 +104,7 @@ img {
     opacity: 0;
     transform: translate3d(30px, 0, 0);
   }
+
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
@@ -113,7 +116,7 @@ img {
   margin-bottom: 24px;
 }
 
-.foto img{
+.foto img {
   margin: 0 auto;
   max-width: 300px;
   border-radius: 50%;
@@ -152,7 +155,8 @@ img {
   justify-content: space-between;
 }
 
- .download a, .btn-contato {
+.download a,
+.btn-contato {
   padding: 12px 27px;
   border-color: transparent;
 }
@@ -172,7 +176,7 @@ img {
 
 /* Sobre-mim */
 
-.resumo h1{
+.resumo h1 {
   text-align: center;
   margin-bottom: 14px;
   color: var(--text-white);
@@ -195,10 +199,10 @@ img {
 }
 
 .contato a {
-  color:  var(--text-gray);
+  color: var(--text-gray);
 }
 
-.list-2{
+.list-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 45px;
@@ -208,16 +212,16 @@ img {
   text-align: center;
 }
 
-.list-3 li:nth-child(1){
+.list-3 li:nth-child(1) {
   margin-bottom: 14px;
 }
 
-.list-3 li:nth-child(2){
+.list-3 li:nth-child(2) {
   color: var(--text-white);
   font-size: var(--FS-Sub-Title);
 }
 
-.list-3 li:nth-child(3){
+.list-3 li:nth-child(3) {
   color: var(--text-gray);
   font-size: var(--FS-contato-text);
 }
@@ -260,7 +264,7 @@ img {
 
 /* Serviços */
 
-.servicos{
+.servicos {
   display: grid;
   gap: 24px;
 }
@@ -271,8 +275,8 @@ img {
   font-size: var(--FS-Title);
 }
 
-.card-services{
-  border-bottom:3px solid var(--Primary-color);
+.card-services {
+  border-bottom: 3px solid var(--Primary-color);
   text-align: center;
   background: #212121;
   padding: 31px 99px 43px;
@@ -296,13 +300,13 @@ img {
   display: grid;
   padding: 15px;
   text-align: center;
-  grid-template-columns: repeat( auto-fit, minmax(80px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   gap: 15px;
 }
 
 /* footer */
 
-#footer{
+#footer {
   background-color: #212121;
   padding: 14px;
   text-align: center;
@@ -310,7 +314,6 @@ img {
   font-size: var(--FS-Sub-Title);
 }
 
-.azl{
+.azl {
   color: var(--Primary-color);
 }
-
