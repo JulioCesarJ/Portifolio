@@ -32,6 +32,7 @@ img {
 
 #body {
   display: grid;
+  margin: 0 auto;
   background-color: var(--background);
   gap: 56px;
 }
@@ -200,7 +201,7 @@ img {
 
 .list-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 45px;
 }
 
@@ -223,9 +224,11 @@ img {
 }
 
 /* Projetos */
-.projetos {
+
+.container-projetos {
   display: grid;
-  justify-content: center;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
 }
 
@@ -233,10 +236,12 @@ img {
   text-align: center;
   color: var(--text-white);
   font-size: var(--FS-Title);
+  margin-bottom: 24px;
 }
 
 .card {
   display: grid;
+  margin: 0 auto;
   width: max-content;
   background: #212121;
   padding: 16px 18px;
@@ -261,8 +266,9 @@ img {
 
 /* Serviços */
 
-.servicos {
+.container-services {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
 }
 
@@ -270,9 +276,12 @@ img {
   text-align: center;
   color: var(--text-white);
   font-size: var(--FS-Title);
+  margin-bottom: 24px;
 }
 
 .card-services {
+  width: 300px;
+  margin: 0 auto;
   border-bottom: 3px solid var(--Primary-color);
   text-align: center;
   background: #212121;
@@ -295,10 +304,15 @@ img {
 
 .card-skills {
   display: grid;
+  color: var(--text-white);
   padding: 15px;
   text-align: center;
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   gap: 15px;
+}
+
+.card-skills li {
+  width: 110px;
 }
 
 /* footer */
