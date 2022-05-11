@@ -225,6 +225,7 @@ img {
 /* Projetos */
 .projetos {
   display: grid;
+  justify-content: center;
   gap: 24px;
 }
 
