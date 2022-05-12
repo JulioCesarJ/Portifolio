@@ -8,7 +8,7 @@
 
 ![Resultado final do projeto](assets/imagem-site.png)
 
-<h4 align="center"><a href="https://juliocesarj.github.io/Site_Portifolio/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://juliocesarj.github.io/Portifolio/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 O site é composto por 5 seções diferentes:
