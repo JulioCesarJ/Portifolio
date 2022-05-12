@@ -48,7 +48,7 @@ img {
   width: 100%;
   justify-self: center;
   padding: 24px 24px;
-  max-width: 1500px;
+  max-width: 1140px;
   color: var(--text-white);
 }
 
@@ -357,7 +357,7 @@ img {
   #main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1500px;
+    max-width: 1140px;
  }
 
  #apresentacao {
