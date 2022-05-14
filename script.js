@@ -61,3 +61,4 @@ function scrollTop() {
 }
 
 arrowUp.addEventListener('click', scrollTop)
+
