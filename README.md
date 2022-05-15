@@ -6,7 +6,7 @@
   Portfólio criado com o intuito de mostrar meus projetos ao decorrer da minha carreira.
 </h4>
 
-![Resultado final do projeto](assets/imagem-site.png)
+![Resultado final do projeto](assets/site.png)
 
 <h4 align="center"><a href="https://juliocesarj.github.io/Portifolio/">Clique para visitar o projeto</a></h4>
 
