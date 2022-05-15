@@ -379,10 +379,16 @@ img {
 
 @media (min-width: 767px) {
   :root {
-    /* Fonte Size - Desktop*/
-    --FS-Title: calc(24px * 1.1);
-    --FS-Sub-Title: calc(16px * 1.1);
-    --FS-contato-text: calc(11px * 1.1);
+    /* Font Family */
+    --FF-Title: 'DM Sans', sans-serif;
+    /* Fonte Size - Mobile*/
+    --FS-Title: calc(24px * 1.6);
+    --FS-Sub-Title: calc(16px * 1.6);
+    --FS-contato-text: calc(11px * 1.6);
+  }
+
+  #main {
+    margin-top: 75px;
   }
 
   .resumo {
@@ -423,9 +429,9 @@ img {
 @media (min-width: 1023) {
   :root {
     /* Fonte Size - Desktop*/
-    --FS-Title: calc(24px * 1.6);
-    --FS-Sub-Title: calc(16px * 1.6);
-    --FS-contato-text: calc(11px * 1.6);
+    --FS-Title: calc(24px *);
+    --FS-Sub-Title: calc(16px * 1.8);
+    --FS-contato-text: calc(11px * 1.8);
   }
 }
 
@@ -433,10 +439,12 @@ img {
 ::-webkit-scrollbar-track {
   background-color: black;
 }
+
 ::-webkit-scrollbar {
   width: 5px;
   background: black;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #65FBD2;
   border-radius: 10px;
