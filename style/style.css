@@ -79,7 +79,7 @@ img {
 
 .js-show-menu {
   display: flex;
-  height: 100vh;
+  height: 100%;
   background-color: var(--Text-black);
   flex-direction: column;
   position: fixed;
@@ -96,6 +96,10 @@ img {
   position: relative;
   top: 20px;
   right: -90px;
+}
+
+.js-hide-menu {
+  animation: hideMenu 1s forwards;
 }
 
 /* Animação Menu Hamburguer */
