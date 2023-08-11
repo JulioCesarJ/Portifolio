@@ -167,7 +167,8 @@ img {
 }
 
 .download a,
-.btn-contato {
+.btn-contato,
+.btn-contato a {
   padding: 12px 27px;
   border-color: transparent;
 }
@@ -211,7 +212,22 @@ img {
   color: var(--text-gray);
   font-size: var(--FS-Sub-Title);
   text-align: center;
+  margin-bottom: 25px;
 }
+
+.List-about-me li{
+  margin-bottom: 25px;
+  color: var(--text-gray);
+  font-size: var(--FS-Sub-Title);
+}
+
+.list-Title{
+  color: var(--text-white);
+  font-size: var(--FS-Title);
+  margin-bottom: 25px;
+}
+
+
 
 /* Contato */
 #contato {
@@ -412,6 +428,7 @@ img {
   .container-resumo {
     margin-top: 24px;
   }
+
 
   .ti-img {
     display: block;
